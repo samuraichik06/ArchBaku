@@ -30,13 +30,13 @@ const Header = () => {
             <section className={classes.ForHeaderBottom}>
                 <img src={archBakuMainPng} alt="" />
                 <ul className={classes.ulForHeaderBottom}>
-                    <li className={classes.liForHeaderBottomStart}>Əsas səhifə</li>
-                    <li className={classes.liForHeaderBottom}>Haqqımızda</li>
-                    <li className={classes.liForHeaderBottom}>Layihələr</li>
-                    <li className={classes.liForHeaderBottom}>Hidmətlər</li>
-                    <li className={classes.liForHeaderBottom}>Vakansiyalar</li>
-                    <li className={classes.liForHeaderBottom}>Xəbərlər</li>
-                    <li className={classes.liForHeaderBottom}>Əlaqə</li>
+                    <li className={classes.liForHeaderBottomStart}><a href="/">Əsas səhifə</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Haqqimizda">Haqqımızda</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Layiheler">Layihələr</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Xidmetler">Xidmətlər</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Vakansiyalar">Vakansiyalar</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Xeberler">Xəbərlər</a></li>
+                    <li className={classes.liForHeaderBottom}><a href="/Elaqe">Əlaqə</a></li>
                 </ul>
             </section>
         </header>

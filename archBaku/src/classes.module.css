@@ -1,16 +1,25 @@
+a{
+    text-decoration: none;
+    color: #B08968;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .ForHeaderTop{
-    color: green;
     width: 100%;
     height: 50px;
-    background: linear-gradient(rgb(43, 97, 43),rgb(43, 97, 43)),url(./img/BannerForHeader.png);
+    background-image: url(./img/BannerForHeadertop.png);
     background-size: cover;
     display: flex;
     align-items: center;
+    color: white;
 }
 .listHeadertop{
     display: flex;
@@ -106,8 +115,11 @@ li{
 }
 .buttonForMainFirst:hover{
     cursor: pointer;
-    scale: 0.96;
+    scale: 0.99;
     transition: all 0.25s ease-in-out;
+    background-color: #E8E8E8;
+    border: 1px solid grey;
+    color: #212121;
 }
 .buttonp{
     color: #FFF;
@@ -120,4 +132,116 @@ li{
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+footer{
+    background-image: url(./img/FooterMainPng.png);
+    width: 100%;
+    height: 465px;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 110px;
+    display: flex;
+    gap: 50px;
+}
+.hrFooter{
+    width: 1200px;
+    position: absolute;
+    bottom: 80px;
+    right: 150px;
+}
+.FooterMuellif , .FooterSite{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.FooterDiv{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    width: 1200px;
+    right: 150px;
+}
+.FooterSite{
+    position: absolute;
+    right: 10px;
+}
+.firstFooterP{
+    width: 311px;
+    height: 78px;
+    flex-shrink: 0;
+    color: #E8E8E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-top: 40px;
+}
+.iconFooterDiv{
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.FooterIcon{
+    display: flex;
+    gap: 10px;
+    margin-top:10px ;
+}
+.SecondFooterP{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.hrFooter1{
+    width: 51px;
+    height: 2px;
+}
+.FooterLi{
+    color: #E8E8E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.FooterUl{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+.SecondFooterSection{
+    margin-left: 80px;
+}
+.newFooterP1{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.ThirdFooterSection{
+    margin-left:40px ;
+}
+.FooterImgDiv{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto auto;
+    gap: 20px;
+    margin-top: 20px;
 }
