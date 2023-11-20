@@ -524,6 +524,7 @@ footer{
     height: 690px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .MainTexnikap{
     color: #FFF;
@@ -601,6 +602,10 @@ footer{
     padding: 60px 30px;
     position: relative;
     display: flex;
+    position: absolute;
+    top: 7%;
+    left: 250px;
+    transition: all 0.25s ease-in-out;
 }
 .moduleImg{
     width: 380px;
@@ -710,4 +715,186 @@ footer{
     background-color: white;
     color: #B08968;
     cursor: pointer;
+}
+.NewsCompSection{
+    background-image: url(./img/NewsMainBack.png);
+    width: 100%;
+    height: 895px;
+    padding: 95px;
+}
+.mainNewsP{
+    color: #2B2B2B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.newsHr{
+    width: 60px;
+    height: 3px;
+    background: #B08968;
+    margin-top: 15px;
+}
+.newsCards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    padding-top: 40px ;
+}
+.newsCard{
+    width: 295px;
+    height: 465px;
+    flex-shrink: 0;
+    border: 1px solid #B0BDB7;
+    background: #FFF;
+    box-shadow: 0px 3px 8px 0px rgba(22, 31, 53, 0.15);
+}
+.NewsCompSection button{
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 111.111% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 179px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #B08968;
+    border: 2px solid gray;
+    margin: auto;
+    margin-top: 60px;
+}
+.NewsCompSection button:hover{
+    transition: all 0.25s ease-in-out;
+    scale: 0.98;
+    background-color: white;
+    color: #B08968;
+    cursor: pointer; 
+}
+.newsCardP1{
+    color: #5E5E5E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 15px;
+}
+.newsHr2{
+    width: 253px;
+    height: 0.8px;
+    background: #D3DCE9;
+    margin-left: 20px;
+}
+.newsP3{
+    width: 253px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 127.778% */
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.newsP4{
+    width: 257px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #5E5E5E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    margin-left: 15px;
+    margin-top: 5;
+}
+.newsP5{
+    color: #016B38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 15px;
+}
+.EmekdasSection{
+    width: 100%;
+    height: 1112px;
+    flex-shrink: 0;
+    background: #FBF9F8;
+}
+.mainEmekdasP{
+    color: #2B2B2B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding:60px ;
+}
+.EmekdasCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 50px;
+    padding-left: 180px;
+}
+.EmekdasCards div img{
+    height: 300px;
+}
+.melumatEmekdas{
+    background-image: url(./img/emekdasAlt.jpg);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 100px;
+    margin-top: -10px;
+}
+.emekDivchik{
+    height: 400px;
+    width: 295px; 
+}
+.emekdasP1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    padding-top: 15px;
+}
+.emekdasP2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.emekdasP3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
 }
